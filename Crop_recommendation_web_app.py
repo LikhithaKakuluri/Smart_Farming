@@ -4,7 +4,7 @@ import streamlit as st
 
 
 #loading the saved model
-loaded_model=pickle.load(open("Crop_model.sav",'rb'))
+loaded_model=pickle.load(open('Crop_model.sav','rb'))
 
 img = '''
 <style>
